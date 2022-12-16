@@ -18,12 +18,15 @@ img {
 ul, ol, li, menu {
     list-style: none;
 }
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
 /* fine reset rules */
 
 /* debug rules */
 .debug .container {
-    max-width: 900px;
-    margin: 0 auto;
     padding: 20px;
     border: 2px dashed tomato;
 }
@@ -79,13 +82,21 @@ main rules
     position: relative;
 }
 
-.card-image .tag {
+.card-image .tag-text {
     position: absolute;
+    bottom: 30px;
+    display: flex;
+    gap: 5px;
+}
+
+.card-image .tag-like {
+    position: absolute;
+    top: 5px;
+    right: 0;
 }
 
 .card-image .tag-sale,
 .card-image .tag-category {
-    bottom: 30px;
     max-width: fit-content;
     border: none;
     color: white;
@@ -97,7 +108,6 @@ main rules
 }
 
 .card-image .tag-category {
-    left: 50px;
     background-color: green;
 }
 
