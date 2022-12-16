@@ -34,3 +34,59 @@ ul, ol, li, menu {
 }
 
 /* fine debug rules */
+
+/*******************************
+general rules
+*******************************/
+.row {
+    display: flex;
+}
+
+/*******************************
+fine general rules
+*******************************/
+
+/*******************************
+header rules
+*******************************/
+.header .row {
+    justify-content: space-between;
+}
+
+
+/*******************************
+fine header rules
+*******************************/
+
+
+/*******************************
+main rules
+*******************************/
+.main .row {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 0;
+}
+
+.main .row > .col {
+    flex-basis: calc(100% / 3);
+    min-height: 300px;
+}
+
+
+/*******************************
+fine main rules
+*******************************/
+
+
+/*******************************
+footer rules
+*******************************/
+.footer .row {
+    justify-content: space-between;
+}
+
+
+/*******************************
+fine footer rules
+*******************************/
