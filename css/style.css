@@ -18,3 +18,19 @@ ul, ol, li, menu {
     list-style: none;
 }
 /* fine reset rules */
+
+/* debug rules */
+.debug .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed tomato;
+}
+
+.row,
+.col {
+    padding: 20px;
+    border: 2px dashed cornflowerblue;
+}
+
+/* fine debug rules */
