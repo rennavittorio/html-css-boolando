@@ -120,6 +120,9 @@ main rules
     top: 10px;
     right: 0;
     padding: 5px 10px;
+    /* meglio usare width e line height
+    perché gestisce il ridimensionamento del font
+    il padding no */
     background-color: white;
 }
 
@@ -134,6 +137,7 @@ main rules
 }
 
 .card-text .sale-price {
+    /* qui si poteva usare un nth-child(2) */
     text-decoration: line-through;
 }
 
